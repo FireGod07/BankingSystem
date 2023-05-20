@@ -1,0 +1,111 @@
+html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #534545;
+    color: #f7efef !important;
+}
+a{
+    transition: all 2s ease;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+h5{
+    color: #272727;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+li{
+    margin-bottom: 15px;
+}
+ol{
+    margin-bottom: 0;
+}
+::selection {
+    color: #272727;
+    background-color: #fff;
+}
+
+
+/* Navbar CSS */
+
+.navbar{
+    box-shadow: 0px 10px 10px 0px rgba(6, 3, 17, 0.171) !important;
+    backdrop-filter: blur(25px) !important;
+}
+.nav-link , .nav-brand{
+    color: #272727;
+    padding: 10px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.nav-item{
+    margin: 0 !important;
+}
+.nav-brand:hover{
+    color: #272727;
+}
+
+
+/* Home Page Content CSS */
+
+.content {
+    height: 80vh;
+    background-color: rgba(255, 70, 0, 0.872);
+    color: #f2eaea !important;
+    padding: 3rem;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 40rem;
+}
+#content{
+    background-image: url("https://img.etimg.com/thumb/width-1200,height-900,imgsize-658708,resizemode-1,msid-80352306/prime/fintech-and-bfsi/jupiter-niyo-razorpayx-why-the-idea-of-these-neobanks-is-lost-if-they-have-to-partner-big-banks.jpg");
+    background-position: 60%;
+    background-size: auto;
+}
+
+.get-started{
+    background-color: #534545;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.get-started:hover {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #534545;
+    transition: all 0.5 ease;
+}
+
+/* Footer CSS */
+
+footer{
+    background-color: rgb(247, 241, 241);
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.social-icons li {
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+.social-icons li .white1{
+    color: #2a4a5c !important;
+}
+.social-icons li .white1:hover {
+    color: #a82222 !important;
+}
+
